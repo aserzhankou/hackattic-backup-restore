@@ -1,0 +1,5 @@
+# Python version requirement
+# Requires Python 3.7 or higher
+
+requests>=2.25.0
+psycopg2-binary==2.9.9
