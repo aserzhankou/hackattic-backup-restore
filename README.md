@@ -53,7 +53,7 @@ export ACCESS_TOKEN=yourvaluehere
 export PG_PASSWORD=yourpasswordhere
 ```
 
-6. Start script:
+6. Start the script:
 
 ```bash
 python backup_restore.py
@@ -69,7 +69,7 @@ docker kill temp-postgres
 
 Debug mode can be enabled by settings `DEBUG_MODE` varible to True.
 
-Debug mode provides verbose logging and do not delete temporary files in the end of execution.
+Debug mode provides verbose logging and temporary files are not deleted in the end of execution.
 
 ## Things to improve (if there was a reason :)
 
