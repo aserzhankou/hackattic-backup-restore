@@ -1,4 +1,4 @@
-# hackattik-backup-restore
+# hackattiс-backup-restore
 
 This repo contains Python script which can be used as a solution for exercise published at https://hackattic.com/challenges/backup_restore.
 
