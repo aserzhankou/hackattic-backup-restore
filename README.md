@@ -66,7 +66,7 @@ python backup_restore.py
 7. Stop local Postgres instance in Docker (if it was used)
 
 ```bash
-docker kill temp-postgres
+docker stop temp-postgres
 ```
 
 ### Note: Second run on the existing database will result in the failed execution
