@@ -76,3 +76,4 @@ Debug mode provides verbose logging and temporary files are not deleted in the e
 - Use .env files
 - Add enhanced handling of errors and exceptions handling
 - Add pre-commit checks
+- Spin up Docker container automatically
