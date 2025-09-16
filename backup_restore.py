@@ -128,7 +128,7 @@ def solve_problem(solution):
         print(f"Response status: {response.status_code}")
         print(f"Response headers: {dict(response.headers)}")
 
-    print(f"Response: {response.text}")
+        print(f"Response: {response.text}")
     
     return response.json()
 
