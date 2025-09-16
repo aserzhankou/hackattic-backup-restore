@@ -34,19 +34,25 @@ git clone git@github.com:aserzhankou/hackattic-backup-restore.git
 python3 -m venv venv
 ```
 
-3. Install requirements:
+3. Activate venv
+
+4. ```bash
+   source ./venv/bin/activate
+   ```
+
+5. Install requirements:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. If needed, spin up a local Postgres instance using Docker:
+6. If needed, spin up a local Postgres instance using Docker:
 
 ```bash
 docker run --rm -d --name temp-postgres -e POSTGRES_PASSWORD=password -e POSTGRES_DB=testdb -p 5432:5432 postgres:11
 ```
 
-5. Set environment variables:
+7. Set environment variables:
 
 ```bash
 export ACCESS_TOKEN=yourvaluehere
@@ -57,13 +63,13 @@ And adjust PSQL configuration (if not using local Docker PSQL instance from the 
 
 ```PG_HOST```, ```PG_DATABASE```, ```PG_USER```
 
-6. Start the script:
+8. Start the script:
 
 ```bash
 python backup_restore.py
 ```
 
-7. Stop local Postgres instance in Docker (if it was used)
+9. Stop local Postgres instance in Docker (if it was used)
 
 ```bash
 docker stop temp-postgres
