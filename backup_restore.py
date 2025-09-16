@@ -155,9 +155,13 @@ def cleanup():
 
 
 def main():
+    # Get problem dataset
     problem_dataset = get_problem_dataset()
 
+    # Decode data from base64 to bytes
     decoded_data = decode_data(problem_dataset["dump"])
+
+    # Save data to file
     save_data(decoded_data, DUMP_FILE + ".gz")
 
     # Decompress the gzipped SQL file
