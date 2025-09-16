@@ -65,6 +65,8 @@ python backup_restore.py
 docker kill temp-postgres
 ```
 
+### Note: Second run on the existing database will result in the failed execution
+
 ## Debug mode
 
 Debug mode can be enabled by settings `DEBUG_MODE` varible to True.
