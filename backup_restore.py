@@ -189,7 +189,6 @@ def main():
     if DEBUG_MODE:
         print("Skipping cleanup of temporary files in debug mode")
     else:
-        print("Cleaning up temporary files...")
         cleanup()
 
 
