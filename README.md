@@ -53,6 +53,10 @@ export ACCESS_TOKEN=yourvaluehere
 export PG_PASSWORD=yourpasswordhere
 ```
 
+And adjust PSQL configuration (if not using local Docker PSQL instance from the steps above):
+
+```PG_HOST```, ```PG_DATABASE```, ```PG_USER```
+
 6. Start the script:
 
 ```bash
