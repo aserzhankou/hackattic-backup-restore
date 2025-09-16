@@ -15,7 +15,7 @@ PROBLEM_URL = "https://hackattic.com/challenges/backup_restore/problem?access_to
 SOLVE_URL = "https://hackattic.com/challenges/backup_restore/solve?access_token="
 
 # Dump file name
-DUMP_FILE = "dataset_dump.sql.gz"
+DUMP_FILE = "dataset_dump.sql"
 
 # Access token to access endpoints
 ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")
